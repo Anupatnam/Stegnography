@@ -18,16 +18,18 @@ This project implements **Steganography**, the technique of hiding secret data (
    ```bash
    git clone https://github.com/Anupatnam/Stegnography.git
    cd Stegnography
-Usage
-To encode a message:
 
-python steganography.py -e "message" -i input_image.png -o output_image.png
+## Usage
+1. To encode a message:
+   ```bash
+   python steganography.py -e "message" -i input_image.png -o output_image.png
+   
+2. To decode the message:
+    ```bash
+   python steganography.py -d -i output_image.png
 
-To decode the message:
-
-
-python steganography.py -d -i output_image.png
-
-Contributing
+## Contributing
 Feel free to fork the repository, submit pull requests, or report issues. Contributions are welcome!
+
+
 
